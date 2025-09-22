@@ -202,14 +202,14 @@ const Hero: React.FC<HeroProps> = ({ images }) => {
       <div className="relative w-full h-screen flex items-center justify-center overflow-hidden">
         {/* ✅ Fullscreen Background Image */}
         <img
-          src="/bg.png"
+          src="/bg.webp"
           alt="Background"
           className="absolute inset-0 w-full h-full object-cover -z-10 opacity-65"
         />
 
         {/* Centered Text */}
-        <h1 className="boldonse absolute z-10 text-[80px] text-center text-white">
-          MANJUNADH GANTA
+        <h1 className="boldonse absolute z-10 text-[80px] text-center outline-text tracking-tighter outline-2 text-white">
+           SOWMYA's GALLERIA
         </h1>
 
         {/* Marquee */}
@@ -224,7 +224,7 @@ const Hero: React.FC<HeroProps> = ({ images }) => {
                   key={idx}
                   src={img}
                   alt={`uploaded-${idx}`}
-                  className="h-60 w-44 md:h-[400px] md:w-60 border-2 border-pink-400 object-cover mx-6 rounded-lg"
+                  className="h-60 w-44 md:h-130 md:w-80 border-5 border-pink-400 object-cover mx-6 rounded-lg"
                   draggable={false}
                 />
               ))}

@@ -70,11 +70,14 @@ export const FileUpload = ({
           <GridPattern />
         </div>
         <div className="flex flex-col items-center justify-center">
-          <p className="relative z-20 font-sans font-bold text-neutral-700 dark:text-neutral-300 text-base">
-            Upload file
+          <p className="relative z-20 boldonse text-neutral-300 text-base">
+            Upload Images
           </p>
-          <p className="relative z-20 font-sans font-normal text-neutral-400 dark:text-neutral-400 text-base mt-2">
-            Drag or drop your files here or click to upload
+          <p className="relative z-20 space text-neutral-400 text-base mt-2">
+            Your photos are completely safe and your identity remains anonymous. 
+            This website is frontend-only — which means it has no backend, no database, and no storage. 
+            Think of it like a body with no brain — it displays your images, but forgets them the moment you refresh. 
+            So feel free to explore, upload, and play around — nothing is saved, nothing is tracked
           </p>
           <div className="relative w-full mt-10 max-w-xl mx-auto">
             {files.length > 0 &&

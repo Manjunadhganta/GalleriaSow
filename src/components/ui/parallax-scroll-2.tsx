@@ -38,8 +38,11 @@ export const ParallaxScrollSecond = ({
   const thirdPart = images.slice(2 * third);
 
   return (
-    <div ref={containerRef} className={cn("w-full py-20 px-4 md:px-10", className)}>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto gap-10">
+    <div ref={containerRef} className={cn("w-full py-28 px-4 md:px-10", className)}>
+        <div className="space text-center">
+          <h1 className="text-white text-3xl">Look Who's <span className="text-5xl cursive font-bold">Slaying</span></h1>
+        </div> 
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 max-w-4xl mx-auto gap-10 mt-22">
         {/* First Column */}
         <div className="grid gap-10">
           {firstPart.map((el, idx) => (
