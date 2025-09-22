@@ -6,6 +6,7 @@ import Second from "./app/components/Second";
 import Third from "./app/components/Third";
 import FaqSection from "./app/components/FaqSection";
 import {DraggableCardDemo} from "./app/components/DragCards";
+import Footer from "./app/components/Footer";
 
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
           <Third images={imageUrls} />
           <DraggableCardDemo images={imageUrls} />
           <FaqSection uploadedImages={imageUrls} />
+          <Footer />
         </>
       )}
     </>
