@@ -4,6 +4,9 @@ import Uploader from "./app/components/Uploader";
 import Hero from "./app/components/Hero";
 import Second from "./app/components/Second";
 import Third from "./app/components/Third";
+import FaqSection from "./app/components/FaqSection";
+import {DraggableCardDemo} from "./app/components/DragCards";
+
 
 export default function App() {
   const [files, setFiles] = useState<File[]>([]);
@@ -24,6 +27,8 @@ export default function App() {
           <Hero images={imageUrls} />
           <Second images={imageUrls} />
           <Third images={imageUrls} />
+          <DraggableCardDemo images={imageUrls} />
+          <FaqSection uploadedImages={imageUrls} />
         </>
       )}
     </>

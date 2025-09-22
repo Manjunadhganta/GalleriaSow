@@ -74,10 +74,10 @@ export const FileUpload = ({
             Upload Images
           </p>
           <p className="relative z-20 space text-neutral-400 text-base mt-2">
-            Your photos are completely safe and your identity remains anonymous. 
-            This website is frontend-only — which means it has no backend, no database, and no storage. 
+            Your photos are completely safe and anonymous. 
+            This website is frontend-only — which means it has no backend and no storage (amnesia 🤪). 
             Think of it like a body with no brain — it displays your images, but forgets them the moment you refresh. 
-            So feel free to explore, upload, and play around — nothing is saved, nothing is tracked
+            So feel free to explore, upload, and play around — nothing is saved, nothing is tracked (Upload More Than 10 pics for better experience)
           </p>
           <div className="relative w-full mt-10 max-w-xl mx-auto">
             {files.length > 0 &&
